@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-menu {
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+.logo {
+    width: 190px;
+    height: 100px;
+}
+.header-menu{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background: #fff;
+}
+.logo img {
+    width: 190px;
+    height: 100px;
+}
+
+.text-menu {
+    padding-top: 35px;
+
+}
+
+.text-menu :hover.text {
+    color: rgb(11, 36, 111);
+    text-decoration: rgb(11, 36, 111) underline;
+    cursor: pointer;
+}
+
+
+.baner{
+    margin-top: 100px;
+}
+.text-icon i{
+    font-size: 30px;
+}
+.text-icon:hover .icon {
+    color:rgb(11, 36, 111);
+}
